@@ -1,0 +1,5 @@
+insert into poll (id, question, published_at) values (1, 'My question', '2015-08-05T08:40:51.620Z')
+insert into choice (id, poll_id, choice, votes) values (1, 1, 'Answer1', 2048)
+insert into choice (id, poll_id, choice, votes) values (2, 1, 'Answer2', 1024)
+insert into choice (id, poll_id, choice, votes) values (3, 1, 'Answer3', 512)
+insert into choice (id, poll_id, choice, votes) values (4, 1, 'Answer4', 256)
